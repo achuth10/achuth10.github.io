@@ -6,10 +6,9 @@ let duration = 4.202625;
 let unit = duration/sw;
 
 window.addEventListener('mousemove',(e)=>{
-    console.log(e);
     let x = e.clientX;
     let y = e.clientY;
-    seekToTime(unit*x);
+    seekToTime(unit*x)
 })
 
 const updateTime = (x)=> {
