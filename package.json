@@ -1,0 +1,28 @@
+{
+  "name": "achuth10.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/achuth10/achuth10.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/achuth10/achuth10.github.io/issues"
+  },
+  "homepage": "https://github.com/achuth10/achuth10.github.io#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "babel-loader": "^8.2.2"
+  },
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
