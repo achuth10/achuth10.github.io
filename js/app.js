@@ -9,11 +9,15 @@ window.addEventListener('mousemove',(e)=>{
 
 })
 
-
-
 const updateTime = (x)=> {
     let time = duration * x / sw;
     time = time.toFixed(1);
     vid.currentTime = time;
-    console.log(time);
 }
+
+
+document.getElementById("contactBtn").addEventListener("click",()=>{
+    console.log("clicked");
+    let check = document.getElementById("toggle");
+    check.checked = !check.checked;
+})
