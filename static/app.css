@@ -72,3 +72,25 @@ dialog{
   animation: appear 350ms ease-in 1;
   max-width: 500px;
 } 
+
+.fa {
+padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+#closebtn{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+

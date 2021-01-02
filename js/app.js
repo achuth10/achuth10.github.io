@@ -16,8 +16,15 @@ const updateTime = (x)=> {
 }
 
 
-document.getElementById("contactBtn").addEventListener("click",()=>{
-    console.log("clicked");
+let btn = document.getElementById("contactBtn");
+btn.addEventListener("click",()=>{
     let check = document.getElementById("toggle");
     check.checked = !check.checked;
+    if(!check.checked)
+    {
+            btn.innerHTML = "Get in touch";
+    }
+    else{
+        btn.innerHTML = "Close";
+    }
 })
