@@ -31,7 +31,7 @@ btn.addEventListener("click", () => {
 });
 
 notify = function () {
-  console.log("notified");
+  new Notification("Get up and walk");
   new Audio("../static/Notif.mp3").play();
   then = moment(now).add(20, "m").toDate();
 };
