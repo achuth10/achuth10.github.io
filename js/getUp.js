@@ -19,7 +19,7 @@ btn.addEventListener("click", () => {
   if (state) {
     btn.textContent = "Stop";
     timerInterval = setInterval(calcTime, 1000);
-    interval = setInterval(notify, 5000);
+    interval = setInterval(notify, 1200000);
   } else {
     btn.textContent = "Start";
     if (interval != null && timerInterval != null) {
